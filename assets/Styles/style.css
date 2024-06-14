@@ -1,0 +1,154 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    overflow: hidden;
+    padding: 15px 10px;
+    border-bottom: 1px solid #F1F1F1;
+}
+
+.header-right {
+    float: right;
+  }
+
+.logo{
+    width: 10vh;
+    height: 5vh;
+    margin-left: 10vh;
+}
+
+.nome{
+    margin-left: 64px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    
+}
+
+/*    --------    */
+
+.BoasVindas{
+    display: flex;
+    align-items: center;
+    padding-left: 6%;
+    width: 38%;
+    height: 61.1vh;
+    background-color: #F5F5EE;
+
+}
+
+.apresentacao{
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+/*    --------    */
+
+.Sobre{
+    width: 51.9%;
+    height: 80vh;
+    margin-left: 57rem;
+    margin-top:  -61vh;
+    display: flex;
+    padding-top: 3%;
+    position: absolute;
+
+}
+
+.contato{
+    width: 44%;
+    height: 30.2vh;
+    background-color: #2E2E2E;
+    background-image: url('../Imagens/Contato.png'), url('../Imagens/Rectangle.png');
+}
+
+.contatos{
+    padding-top: 2%;
+    padding-left: 13%;
+}
+
+.limpa{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.autorais{
+    padding-top: 30px;
+}
+
+/**/
+
+.fotoPerfil{
+    border-radius: 100%;
+    box-shadow: 2px 2px 2px 2px #000000;
+    border: 1px solid #000000;
+}
+
+.FotoFormacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.formacao{
+    display: flex;
+    margin-top: 30px;
+    border: 1px solid #272727;
+    width: 500px;
+    height: 43px;
+
+    background-color: #F5F5EE;
+}
+
+
+.caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 43px;
+
+    box-shadow: 4px 4px #272727;
+
+    background-color: #F5F5EE;
+}
+
+.Experiencias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+.ListaExperiencia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.experiencia{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    width: 110px;
+    height: 100px;
+    margin: 20px;
+    box-shadow: 8px 8px #AAAA9B;
+    border: 18px solid #F5F5EE;
+
+    background-color: #F5F5EE;
+}

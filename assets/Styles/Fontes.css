@@ -1,0 +1,91 @@
+@font-face{
+    font-family: 'Inter';
+    src: url('../Fontes/Inter/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+.text1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 49px;
+    line-height: 59px;
+}
+
+.text2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.text3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.text4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.text5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.text6{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+.text7{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+/* Fontes Mobile */
+
+@media(max-width: 639px){
+
+.text1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32.5671px;
+    line-height: 39px;
+}
+
+.text2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.text5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+}
+
+}
